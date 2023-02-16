@@ -1,0 +1,33 @@
+@import 'https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+  }
+
+
+*::selection{
+  background-color: rgba(0, 45, 181, 0.241);
+  color: white;
+}
+
+img{
+  user-select: none;
+}
+
+[x-cloak] {
+  display: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
