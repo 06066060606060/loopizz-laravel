@@ -50,13 +50,14 @@
                         <option class="text-center" id="optionx" value="/" selected>Fr</option>
                         <option class="text-center" id="optionx" value="en">En</option>
                     </select>
-                
+                     @if (backpack_auth()->check())
                      @if (backpack_auth()->user()->role == 'admin')
                         <div class="mt-8 lg:mt-0">
                             <button
                                 class="h-12 px-4 py-2 font-bold text-black bg-white border lg:ml-4 rounded-xl hover:bg-gray-200"><a
                                     href="admin/dashboard">Dashboard</a></button>
                         </div>
+                        @endif
                     @else
                         <div class="mt-8 lg:mt-0">
                             <button
