@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('city')->nullable();
             $table->string('school')->nullable();
             $table->string('school_speciality')->nullable();
+            $table->string('type')->nullable();
         });
     }
 

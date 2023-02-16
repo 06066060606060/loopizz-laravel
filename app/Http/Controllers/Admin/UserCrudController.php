@@ -42,7 +42,7 @@ class UserCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('name');
+        CRUD::column('name')->label('Pseudo');
         CRUD::column('email');
         CRUD::column('role')->type('select_from_array')->options([
             'admin' => 'Administrator',
@@ -70,7 +70,7 @@ class UserCrudController extends CrudController
             'name' => 'required|min:2',
             'email' => 'required',
         ]);
-        CRUD::field('name');
+        CRUD::field('name')->label('Pseudo');
         CRUD::field('email');
         CRUD::field('password');
         $this->crud->addField([   // select_from_array
@@ -110,7 +110,7 @@ class UserCrudController extends CrudController
             'name' => 'required|min:2',
             'email' => 'required',
         ]);
-        CRUD::field('name');
+        CRUD::field('name')->label('Pseudo');
         CRUD::field('email');
         $this->crud->addField([   // select_from_array
             'name'        => 'role',
