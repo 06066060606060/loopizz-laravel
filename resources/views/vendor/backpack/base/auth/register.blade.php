@@ -55,7 +55,7 @@
                         <label for="show"class="mt-2 border btn btn-block" style="cursor:pointer;"><i class="mr-2 fa fa-user"></i> Register</label>
                         <span id="content">
                         <div class="form-group">
-                            <label class="control-label" for="name">{{ trans('backpack::base.name') }}</label>
+                            <label class="control-label" for="name">Pseudo</label>
 
                             <div>
                                 <input type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" id="name" value="{{ old('name') }}">
