@@ -24,7 +24,8 @@ Route::get('index', 'getAll')->name('getAll');
 Route::get('logout', 'logout');
 Route::get('help', 'help');
 Route::get('contact', 'contact');
-Route::post('contactus', 'contactus');
+Route::get('plats', 'plats');
+Route::get('professionnel', 'professionnel');
 
 });
 

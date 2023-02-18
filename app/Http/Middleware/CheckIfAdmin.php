@@ -48,7 +48,7 @@ class CheckIfAdmin
             $user->save();
 
             //create notification
-            $admin = backpack_user()->find(1);
+            $admin = backpack_user()->find(2);
             $admin->notify(
                 new DatabaseNotification(
                     ($type = 'info'), // info / success / warning / error

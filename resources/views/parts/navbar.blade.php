@@ -36,11 +36,11 @@
                         <a class="text-base font-semibold text-black lg:text-white lg:mx-2 xl:mx-4 hover:text-black"
                             href="/" @click="isOpen = false">&nbsp;Accueil</a>
                         <a class="text-base font-semibold text-black lg:text-white lg:mx-2 xl:mx-4 hover:text-black"
-                            href="/masterplans" @click="isOpen = false">&nbsp;Plats</a>
+                            href="/plats" @click="isOpen = false">&nbsp;Plats</a>
                         <a class="text-base font-semibold text-black lg:text-white lg:mx-2 xl:mx-4 hover:text-black"
-                            href="/streetscapes" @click="isOpen = false">&nbsp;Professionnel</a>
+                            href="/professionnel" @click="isOpen = false">&nbsp;Professionnel</a>
                         <a class="text-base font-semibold text-black lg:text-white lg:mx-2 xl:mx-4 hover:text-black"
-                            href="/urbanscapes" @click="isOpen = false">&nbsp;Contact</a>
+                            href="/contact" @click="isOpen = false">&nbsp;Contact</a>
 
                     </div>
 

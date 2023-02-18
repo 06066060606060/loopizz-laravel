@@ -50,12 +50,16 @@ class GlobalController extends Controller
         return view('contact');
     }
 
-    public function contactus()
+    public function plats()
     {
-        return view('contactus');
+        return view('plats');
     }
 
-   
+    public function professionnel()
+    {
+        return view('professionnel');
+    }
+
     static function version()
     {
         $filename = '../public/build/manifest.json';
